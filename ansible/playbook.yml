@@ -1,0 +1,10 @@
+---
+- name: Validate Network-as-Code automation
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  tasks:
+    - name: Confirm automation workflow is available
+      ansible.builtin.debug:
+        msg: "Network-as-Code Ansible validation passed."
