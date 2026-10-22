@@ -2,3 +2,5 @@ ansible
 ansible-lint
 ruff
 pytest
+requests
+python-dotenv
